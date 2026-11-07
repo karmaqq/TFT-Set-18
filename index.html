@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karma TFT</title>
+    <link rel="icon" type="image/x-icon" href="/img/stats/icon.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/traits.css" />
+    <link rel="stylesheet" href="css/champions.css" />
+    <link rel="stylesheet" href="css/items.css" />
+    <link rel="stylesheet" href="css/planner.css" />
+    <link rel="stylesheet" href="css/tooltips.css" />
+    <link rel="stylesheet" href="css/meta.css" />
+    <link rel="stylesheet" href="css/photomode.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="header-content">
+          <div class="brand">
+            <img src="/img/stats/icon.jpg" alt="Logo" class="header-logo" />
+            <h1>KARMA <span class="accent-text">TFT</span></h1>
+          </div>
+
+          <nav class="header-nav-center">
+            <button class="nav-btn active" data-target="meta-view">Meta</button>
+            <button class="nav-btn" data-target="planner-view">
+              Takım
+            </button>
+            <button class="nav-btn" data-target="champs-view">Şampiyon</button>
+            <button class="nav-btn" data-target="augments-view">Eklenti</button>
+            <button class="nav-btn" data-target="profile-view">Profil</button>
+          </nav>
+
+          <div class="header-right">
+            <span class="set-info">Set 18: Efsunlu Orman</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="mother" class="mother">
+      <div id="meta-view" class="view-section active">
+        <div class="meta-wrap">
+          <div class="panel-header meta-panel-header">
+            <h2>Meta Komplar</h2>
+            <div class="meta-header-right">
+              <span id="meta-comp-count" class="meta-comp-count"></span>
+              <span id="meta-patch" class="meta-patch"></span>
+            </div>
+          </div>
+          <div class="meta-body">
+            <aside class="meta-side meta-side-left"></aside>
+            <div id="meta-tiers" class="meta-tiers"></div>
+            <aside class="meta-side meta-side-right"></aside>
+          </div>
+        </div>
+      </div>
+
+      <div id="planner-view" class="view-section">
+        <aside id="left-panel" class="left-panel">
+          <div class="panel-header">
+            <h2>Özellikler</h2>
+          </div>
+          <div id="traits-section" class="traits-section"></div>
+        </aside>
+
+        <div id="mid-panel" class="mid-panel">
+          <section class="canvas-area">
+            <div class="panel-header">
+              <h2>Takımın (<span id="team-count">0</span>/10)</h2>
+              <div class="panel-actions">
+                <button id="photo-mode-btn" class="btn-photo-mode">
+                  📸 Fotoğraf Modu
+                </button>
+                <button id="reset-team" class="btn-reset">
+                  Takımı Temizle
+                </button>
+              </div>
+            </div>
+            <div id="canvas" class="canvas">
+              <div class="hex-row">
+                <div class="empty-slot" id="slot-0"></div>
+                <div class="empty-slot" id="slot-1"></div>
+                <div class="empty-slot" id="slot-2"></div>
+                <div class="empty-slot" id="slot-3"></div>
+                <div class="empty-slot" id="slot-4"></div>
+                <div class="empty-slot" id="slot-5"></div>
+                <div class="empty-slot" id="slot-6"></div>
+              </div>
+              <div class="hex-row">
+                <div class="empty-slot" id="slot-7"></div>
+                <div class="empty-slot" id="slot-8"></div>
+                <div class="empty-slot" id="slot-9"></div>
+                <div class="empty-slot" id="slot-10"></div>
+                <div class="empty-slot" id="slot-11"></div>
+                <div class="empty-slot" id="slot-12"></div>
+                <div class="empty-slot" id="slot-13"></div>
+              </div>
+              <div class="hex-row">
+                <div class="empty-slot" id="slot-14"></div>
+                <div class="empty-slot" id="slot-15"></div>
+                <div class="empty-slot" id="slot-16"></div>
+                <div class="empty-slot" id="slot-17"></div>
+                <div class="empty-slot" id="slot-18"></div>
+                <div class="empty-slot" id="slot-19"></div>
+                <div class="empty-slot" id="slot-20"></div>
+              </div>
+              <div class="hex-row">
+                <div class="empty-slot" id="slot-21"></div>
+                <div class="empty-slot" id="slot-22"></div>
+                <div class="empty-slot" id="slot-23"></div>
+                <div class="empty-slot" id="slot-24"></div>
+                <div class="empty-slot" id="slot-25"></div>
+                <div class="empty-slot" id="slot-26"></div>
+                <div class="empty-slot" id="slot-27"></div>
+              </div>
+            </div>
+          </section>
+
+          <section id="items-section" class="items-section">
+            <div class="panel-header">
+              <div class="item-search-row">
+                <div class="item-search-container">
+                  <input
+                    type="text"
+                    id="item-search"
+                    placeholder="Eşya ara..."
+                  />
+                  <button id="clear-item-search" style="display: none">
+                    &times;
+                  </button>
+                </div>
+              </div>
+
+              <div class="item-tabs-row">
+                <div id="item-tabs" class="item-tabs-menu">
+                  <button class="item-tab-btn active" data-cat="normal">
+                    Normal
+                  </button>
+                  <button class="item-tab-btn" data-cat="artifact">
+                    Yadigar
+                  </button>
+                  <button class="item-tab-btn" data-cat="radiant">
+                    Işıltılı
+                  </button>
+                  <button class="item-tab-btn" data-cat="emblem">Amblem</button>
+                </div>
+              </div>
+            </div>
+
+            <div id="items-container" class="items-grid"></div>
+          </section>
+        </div>
+
+        <section id="right-panel" class="right-panel">
+          <div class="panel-header">
+            <div class="champ-controls-wrapper">
+              <button id="toggle-pool-view" class="view-toggle-btn">
+                Şampiyonları Sırala
+              </button>
+              <div class="search-wrapper">
+                <input
+                  type="text"
+                  id="champ-search"
+                  placeholder="Şampiyon ara..."
+                />
+                <button id="clear-champ-search" style="display: none">
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="champions-section" class="champions-section"></div>
+        </section>
+      </div>
+
+      <div id="champs-view" class="view-section">
+        <div class="empty-state-panel">
+          <div class="panel-header">
+            <h2>Şampiyonlar Yakında...</h2>
+          </div>
+        </div>
+      </div>
+
+      <div id="augments-view" class="view-section">
+        <div class="empty-state-panel">
+          <div class="panel-header">
+            <h2>Eklentiler Yakında...</h2>
+          </div>
+        </div>
+      </div>
+
+      <div id="profile-view" class="view-section">
+        <div class="empty-state-panel">
+          <div class="panel-header">
+            <h2>Profil Üzerinde Çalışıyorum.</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-content-stacked">
+          <div class="footer-top">
+            <p>
+              © 2026 <span class="accent-text">Esad Şimşek</span> tarafından
+              geliştirildi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="global-trait-tooltip" class="trait-tooltip-global"></div>
+    <div id="global-champ-tooltip" class="champ-tooltip"></div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

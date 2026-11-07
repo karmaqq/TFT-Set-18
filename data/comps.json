@@ -1,0 +1,2462 @@
+{
+  "set": 18,
+  "patch": "18.1d",
+  "kaynak": "Kullanıcı güncellemesi - Patch 18.1d",
+  "güncelleme": "2026-09-04",
+  "metalar": [
+    {
+      "isim": "Malphite AP Flex",
+      "tier": "A",
+      "playstyle": "Fast 8",
+      "splash": "Malphite",
+      "carry": [
+        "Soraka",
+        "Zyra"
+      ],
+      "tank": [
+        "Malphite"
+      ],
+      "flex": [],
+      "swap": {
+        "Kennen": [
+          "Lillia",
+          "Ahri",
+          "Ezreal"
+        ],
+        "Yorick": [
+          "Maokai"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Yorick",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 6
+        },
+        {
+          "ad": "Azir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Amumu",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 2
+        },
+        {
+          "ad": "Malphite",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 4,
+          "esyalar": ["gargoyltaszirhi", "warmogunzirhi", "kraliyetbasligi"]
+        },
+        {
+          "ad": "Soraka",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Zyra",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Kennen",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        }
+      ],
+      "oyuncu_notu": "Malphite AP flex komp. Flora Fatalis ile Malphite solo frontline, Soraka ve Zyra scaling carry. Azir ve Kennen ek hasar."
+    },
+    {
+      "isim": "Solar Kayle",
+      "tier": "A",
+      "playstyle": "2 Cost Reroll",
+      "splash": "Kayle",
+      "carry": [
+        "Kayle",
+        "Xayah"
+      ],
+      "tank": [
+        "Ornn"
+      ],
+      "flex": [],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Leona",
+          "yildiz": 3,
+          "sira": 2,
+          "slot": 5
+        },
+        {
+          "ad": "Ornn",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Rakan",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Xayah",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Kayle",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Sejuani",
+          "yildiz": 3,
+          "sira": 2,
+          "slot": 4
+        },
+        {
+          "ad": "Hecarim",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 1
+        }
+      ],
+      "oyuncu_notu": "2-cost reroll komp. Kayle carry, 3 Solar + 2 Rapidfire + Juggernaut sinerjisi. Guinsoo ve attack speed itemları kritik."
+    },
+    {
+      "isim": "Primal Jungle",
+      "tier": "A",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Sivir",
+      "carry": [
+        "Nidalee",
+        "Sivir"
+      ],
+      "tank": [
+        "Malphite"
+      ],
+      "flex": [
+        {
+          "seviye": 9,
+          "birimler": [
+            "Taric"
+          ]
+        }
+      ],
+      "swap": {
+        "Közcük": [
+          "Ashe"
+        ],
+        "Kayacıl": [
+          "Gnar"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Közcük",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Rek'Sai",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 7
+        },
+        {
+          "ad": "Kayacıl",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Kog'Maw",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 6
+        },
+        {
+          "ad": "Malphite",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Nidalee",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 1
+        },
+        {
+          "ad": "Sivir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        }
+      ],
+      "oyuncu_notu": "Primal + Riftbeast komp. Nidalee carry, Malphite frontline. AD itemları Nidalee ve Sivir arasında paylaş."
+    },
+    {
+      "isim": "Primal Hunters",
+      "tier": "A",
+      "playstyle": "Fast 8",
+      "splash": "Sivir",
+      "carry": [
+        "Ashe"
+      ],
+      "tank": [],
+      "flex": [],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Shen",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Tristana",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Vi",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Amumu",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Lillia",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Ashe",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Ivern",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Kennen",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        }
+      ],
+      "oyuncu_notu": "Primal + Hunter komp. Ashe carry, Vi frontline. Hunter sinerjisi hedef kilitleme gerektirir."
+    },
+    {
+      "isim": "Draven AD 9",
+      "tier": "A",
+      "playstyle": "Fast 9",
+      "splash": "Draven",
+      "carry": [
+        "Draven",
+        "Ezreal"
+      ],
+      "tank": [
+        "Maokai"
+      ],
+      "flex": [],
+      "swap": {
+        "Ivern": [
+          "Gözcü",
+          "Lux"
+        ],
+        "Alistar": [
+          "Hecarim"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Alistar",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Amumu",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Ezreal",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Draven",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 4
+        },
+        {
+          "ad": "Ivern",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Kennen",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Maokai",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 1
+        }
+      ],
+      "oyuncu_notu": "Fast 9 komp. Draven Guinsoo Required. 9. seviyeye erişmek kritik. Maokai ve Taric frontline, Kennen ve Ezreal ek hasar."
+    },
+    {
+      "isim": "Yi Rengar",
+      "tier": "A",
+      "playstyle": "7 Lvl Reroll",
+      "splash": "Master Yi",
+      "carry": [
+        "Master Yi",
+        "Rengar"
+      ],
+      "tank": [
+        "Vi"
+      ],
+      "flex": [],
+      "swap": {
+        "Nidalee": [
+          "Kog'Maw"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Yorick",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 1
+        },
+        {
+          "ad": "Kayacıl",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Master Yi",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 7
+        },
+        {
+          "ad": "Rengar",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 6
+        },
+        {
+          "ad": "Vi",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Nidalee",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Sett",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 1
+        }
+      ],
+      "oyuncu_notu": "Adaptor reroll komp. Master Yi ve Rengar dual carry. Blossom + Adaptor sinerjisi."
+    },
+    {
+      "isim": "Adaptor Reroll",
+      "tier": "A",
+      "playstyle": "7 Lvl Reroll",
+      "splash": "Master Yi",
+      "carry": [
+        "Master Yi",
+        "Kog'Maw"
+      ],
+      "tank": [
+        "Vi"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Gromp"
+          ]
+        },
+        {
+          "seviye": 9,
+          "birimler": [
+            "Gözcü"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Yorick",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 1
+        },
+        {
+          "ad": "Kayacıl",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Kog'Maw",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Master Yi",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 7
+        },
+        {
+          "ad": "Vi",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Nidalee",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Sett",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 1
+        }
+      ],
+      "oyuncu_notu": "3-cost reroll. Master Yi AP carry, Kog'Maw off-damage. Vi frontline tank. Adaptor sinerjisi Anahtar."
+    },
+    {
+      "isim": "Defender Cassio",
+      "tier": "B",
+      "playstyle": "7 Lvl Reroll",
+      "splash": "Cassiopeia",
+      "carry": [
+        "Cassiopeia",
+        "Fiddlesticks"
+      ],
+      "tank": [
+        "Rammus"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Soraka",
+            "Alune"
+          ]
+        }
+      ],
+      "swap": {
+        "Leona": [
+          "Rengar"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Leona",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Ornn",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Shen",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Cassiopeia",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Rammus",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Lillia",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 1
+        }
+      ],
+      "oyuncu_notu": "3-cost reroll komp. 6 Defender ile Cassiopeia carry. Rammus ve Fiddlesticks off-tank. Savunucu amblemi önerilir. Deathcap + Shojin kritik."
+    },
+    {
+      "isim": "Aphelios Vanguard",
+      "tier": "B",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Aphelios",
+      "carry": [
+        "Aphelios",
+        "Korkabuk"
+      ],
+      "tank": [
+        "Gözcü"
+      ],
+      "flex": [],
+      "swap": {
+        "Hecarim": [
+          "Rakan"
+        ],
+        "Korkabuk": [
+          "Yampiri Yengeç"
+        ],
+        "Zyra": [
+          "Morgana",
+          "Alune"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Anne Gaga",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 3
+        },
+        {
+          "ad": "Hecarim",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 4
+        },
+        {
+          "ad": "Aphelios",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Korkabuk",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 2
+        },
+        {
+          "ad": "Zyra",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        }
+      ],
+      "oyuncu_notu": "Vanguard komp. Aphelios AD carry, Gözcü ve Hecarim frontline. Rapidfire + Vanguard sinerjisi."
+    },
+    {
+      "isim": "Aphelios Elderwood",
+      "tier": "B",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Aphelios",
+      "carry": [
+        "Aphelios",
+        "Alune"
+      ],
+      "tank": [
+        "Hecarim"
+      ],
+      "flex": [],
+      "swap": {
+        "Gnar": [
+          "LeBlanc"
+        ],
+        "Alune": [
+          "Ivern",
+          "Lux"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Ornn",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Xayah",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Alistar",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Hecarim",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Aphelios",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Lillia",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 1
+        },
+        {
+          "ad": "Alune",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 3
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 2
+        }
+      ],
+      "oyuncu_notu": "Elderwood komp. Aphelios carry, Gnar ve Hecarim frontline. Elderwood scaling."
+    },
+    {
+      "isim": "Dragon 9",
+      "tier": "B",
+      "playstyle": "Fast 9",
+      "splash": "Kadim Ejderha",
+      "carry": [
+        "Morgana",
+        "Kadim Ejderha"
+      ],
+      "tank": [
+        "Maokai"
+      ],
+      "flex": [],
+      "swap": {
+        "Ivern": [
+          "Ashe",
+          "Draven"
+        ],
+        "Morgana": [
+          "Alune",
+          "Lux"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Amumu",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Morgana",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 5
+        },
+        {
+          "ad": "Ivern",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Kadim Ejderha",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 7
+        },
+        {
+          "ad": "Kennen",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Maokai",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        }
+      ],
+      "oyuncu_notu": "Fast 9 komp. Kadim Ejderha carry, Maokai ve Taric frontline. 5-cost unitler kritik."
+    },
+    {
+      "isim": "10 Riftbeast",
+      "tier": "B",
+      "playstyle": "Fast 9",
+      "splash": "Kadim Ejderha",
+      "carry": [
+        "Kadim Ejderha",
+        "Korkabuk"
+      ],
+      "tank": [
+        "Gözcü"
+      ],
+      "flex": [
+        {
+          "seviye": 10,
+          "birimler": [
+            "Lux",
+            "Ivern",
+            "Draven"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Çakıl",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Alacakurt",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Gromp",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Yampiri Yengeç",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Anne Gaga",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Kayacıl",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 1
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Korkabuk",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Kadim Ejderha",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        }
+      ],
+      "oyuncu_notu": "10 Riftbeast vertical komp. Kadim Ejderha carry. Tüm vadi canavarlarını topla."
+    },
+    {
+      "isim": "Riftbeast Reroll",
+      "tier": "B",
+      "playstyle": "1 Cost Reroll",
+      "splash": "Közcük",
+      "carry": [
+        "Çakıl",
+        "Közcük"
+      ],
+      "tank": [
+        "Kayacıl"
+      ],
+      "flex": [],
+      "swap": {
+        "Közcük": [
+          "Gromp"
+        ],
+        "Korkabuk": [
+          "Kadim Ejderha"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Çakıl",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Közcük",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Alacakurt",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Yampiri Yengeç",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Kayacıl",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Korkabuk",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 7
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 6
+        }
+      ],
+      "oyuncu_notu": "Riftbeast vertical reroll. Çakıl ve Közcük carry, Kayacıl frontline. Erken reroll ile 3-star hedefle."
+    },
+    {
+      "isim": "Invoker Morgana",
+      "tier": "B",
+      "playstyle": "Lose Streak",
+      "splash": "Morgana",
+      "carry": [
+        "Morgana",
+        "Korkabuk"
+      ],
+      "tank": [
+        "Gözcü"
+      ],
+      "flex": [],
+      "swap": {
+        "Kog'Maw": [
+          "Ivern"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Çakıl",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Hecarim",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Kog'Maw",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Korkabuk",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 6
+        },
+        {
+          "ad": "Morgana",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Alune",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        }
+      ],
+      "oyuncu_notu": "Invoker komp. Morgana carry, Morello Required. Manabaz amblemi önerilir. Gözcü ve Hecarim frontline."
+    },
+    {
+      "isim": "Sprit Blossom",
+      "tier": "B",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Ahri",
+      "carry": [
+        "Ahri",
+        "Ashe"
+      ],
+      "tank": [
+        "Sett"
+      ],
+      "flex": [],
+      "swap": {
+        "Karma": [
+          "Alune"
+        ],
+        "Zyra": [
+          "Ivern"
+        ],
+        "Yorick": [
+          "Maokai"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Karma",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Yorick",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Vi",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Ahri",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Sett",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Sivir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 4
+        },
+        {
+          "ad": "Zyra",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Ashe",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 4
+        }
+      ],
+      "oyuncu_notu": "Blossom komp. Ahri carry, Ashe support. 5 Blossom hedefle, empowering wisps önemli."
+    },
+    {
+      "isim": "Ahri Morgana",
+      "tier": "B",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Ahri",
+      "carry": [
+        "Ahri",
+        "Morgana"
+      ],
+      "tank": [
+        "Sett"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Kog'Maw"
+          ]
+        },
+        {
+          "seviye": 9,
+          "birimler": [
+            "Lux"
+          ]
+        }
+      ],
+      "swap": {
+        "Taric": [
+          "Hecarim"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Çakıl",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Karma",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Kayacıl",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Ahri",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Morgana",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 5
+        },
+        {
+          "ad": "Sett",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        }
+      ],
+      "oyuncu_notu": "Ahri + Morgana dual carry. Sett ve Taric frontline. Invoker sinerjisi."
+    },
+    {
+      "isim": "Coven Ahri",
+      "tier": "B",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Ahri",
+      "carry": [
+        "Ahri",
+        "Morgana"
+      ],
+      "tank": [
+        "Gözcü"
+      ],
+      "flex": [],
+      "swap": {
+        "Taric": [
+          "Hecarim"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Elise",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 5
+        },
+        {
+          "ad": "Cassiopeia",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 3
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Ahri",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Morgana",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Alune",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        }
+      ],
+      "oyuncu_notu": "Coven komp. Ahri carry, Morgana off-damage. 4 Coven + Vanguard sinerjisi."
+    },
+    {
+      "isim": "Ahri Spellweavers",
+      "tier": "B",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Ahri",
+      "carry": [
+        "Ahri",
+        "Zyra"
+      ],
+      "tank": [
+        "Lillia"
+      ],
+      "flex": [],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Karma",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Rakan",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Yorick",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 4
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 3
+        },
+        {
+          "ad": "Ahri",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Lillia",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Zyra",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Alune",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        }
+      ],
+      "oyuncu_notu": "Spellweaver komp. Ahri carry, Zyra off-damage. 4 Spellweaver hedefle."
+    },
+    {
+      "isim": "Caitlyn Hunters",
+      "tier": "B",
+      "playstyle": "2 Cost Reroll",
+      "splash": "Caitlyn",
+      "carry": [
+        "Caitlyn",
+        "Sivir"
+      ],
+      "tank": [
+        "Yampiri Yengeç"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Amumu"
+          ]
+        },
+        {
+          "seviye": 9,
+          "birimler": [
+            "Maokai"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Rakan",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Caitlyn",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Sejuani",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 2
+        },
+        {
+          "ad": "Yampiri Yengeç",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Tristana",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Vi",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Sivir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        }
+      ],
+      "oyuncu_notu": "Hunter komp. Caitlyn carry, Guinsoo + Kraken kritik. Juggernaut frontline ile korun."
+    },
+    {
+      "isim": "Solar Melee",
+      "tier": "C",
+      "playstyle": "5 Lvl Reroll",
+      "splash": "Akali",
+      "carry": [
+        "Akali",
+        "Camille",
+        "Varus"
+      ],
+      "tank": [
+        "Ornn"
+      ],
+      "flex": [],
+      "swap": {
+        "Ornn": [
+          "Yorick",
+          "Rakan"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Akali",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 1
+        },
+        {
+          "ad": "Camille",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 2
+        },
+        {
+          "ad": "Leona",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Ornn",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Varus",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Kayle",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Sejuani",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 7
+        }
+      ],
+      "oyuncu_notu": "5 seviye reroll. Akali, Camille ve Varus carry; Ornn frontline."
+    },
+    {
+      "isim": "Invoker Nidalee",
+      "tier": "C",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Nidalee",
+      "carry": [
+        "Nidalee",
+        "Morgana"
+      ],
+      "tank": [
+        "Gözcü"
+      ],
+      "flex": [],
+      "swap": {
+        "Yampiri Yengeç": [
+          "Rakan"
+        ],
+        "Çakıl": [
+          "Hecarim"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Çakıl",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Yampiri Yengeç",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Kog'Maw",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Vi",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Morgana",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 3
+        },
+        {
+          "ad": "Nidalee",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        }
+      ],
+      "oyuncu_notu": "Invoker komp. Nidalee carry, Morgana off-damage. Gözcü ve Vi frontline."
+    },
+    {
+      "isim": "Rengar Reroll",
+      "tier": "C",
+      "playstyle": "7 Lvl Reroll",
+      "splash": "Rengar",
+      "carry": [
+        "Anne Gaga",
+        "Rengar"
+      ],
+      "tank": [
+        "Hecarim"
+      ],
+      "flex": [],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Anne Gaga",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 3,
+          "sira": 2,
+          "slot": 1
+        },
+        {
+          "ad": "Hecarim",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Rengar",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 1
+        },
+        {
+          "ad": "Aphelios",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Gözcü",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 7
+        },
+        {
+          "ad": "Korkabuk",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 2
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 7
+        }
+      ],
+      "oyuncu_notu": "3-cost reroll komp. Rengar carry, Rapidfire + Ravager sinerjisi. Guinsoo Required."
+    },
+    {
+      "isim": "Warwick Reroll",
+      "tier": "C",
+      "playstyle": "6 Lvl Reroll",
+      "splash": "Warwick",
+      "carry": [
+        "Warwick",
+        "Alacakurt"
+      ],
+      "tank": [
+        "Malphite"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Diana"
+          ]
+        },
+        {
+          "seviye": 9,
+          "birimler": [
+            "Gözcü"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Rek'Sai",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 7
+        },
+        {
+          "ad": "Alacakurt",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Warwick",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Azir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Kayacıl",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Korkabuk",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Malphite",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        }
+      ],
+      "oyuncu_notu": "2-cost reroll komp. Warwick carry, Blackthorn + Ravager sinerjisi. Diana flex unit."
+    },
+    {
+      "isim": "Elderwood Executioners",
+      "tier": "C",
+      "playstyle": "4 Cost Fast 8",
+      "splash": "Ezreal",
+      "carry": [
+        "Ezreal",
+        "Soraka"
+      ],
+      "tank": [
+        "Hecarim"
+      ],
+      "flex": [
+        {
+          "birimler": [
+            "LeBlanc"
+          ]
+        }
+      ],
+      "swap": {
+        "Lux": [
+          "Kennen"
+        ]
+      },
+      "birimler": [
+        {
+          "ad": "Ornn",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Alistar",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Hecarim",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Ezreal",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Soraka",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 2,
+          "slot": 4
+        },
+        {
+          "ad": "Lux",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Taric",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 1
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 7
+        }
+      ],
+      "oyuncu_notu": "Elderwood + Executioner komp. Ezreal carry, Soraka ve Lux ek hasar. Elderwood scaling."
+    },
+    {
+      "isim": "Moo-nara",
+      "tier": "C",
+      "playstyle": "6 Lvl Reroll",
+      "splash": "Yunara",
+      "carry": [
+        "Yunara",
+        "Ezreal"
+      ],
+      "tank": [
+        "Alistar"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Kennen"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Rek'Sai",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Yorick",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 1
+        },
+        {
+          "ad": "Alistar",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Yunara",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Azir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Ezreal",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Sett",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 2
+        }
+      ],
+      "oyuncu_notu": "2-cost reroll komp. Yunara carry, Executioner + Blossom sinerjisi. Kennen flex unit."
+    },
+    {
+      "isim": "Sprykin Teemo",
+      "tier": "C",
+      "playstyle": "5 Lvl Reroll",
+      "splash": "Teemo",
+      "carry": [
+        "Teemo"
+      ],
+      "tank": [
+        "Rek'Sai"
+      ],
+      "flex": [],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Kobuko",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Rek'Sai",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Veigar",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Teemo",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Kog'Maw",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Rammus",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        }
+      ],
+      "oyuncu_notu": "Sprykin vertical reroll. Zıpırgil amblemi önerilir. Rek'Sai ve Kobuko 3-star frontline."
+    },
+    {
+      "isim": "Veigar Consuming Flora",
+      "tier": "X",
+      "rozet": "S",
+      "playstyle": "5 Lvl Reroll",
+      "sart": "Flora Fatalis amblemi",
+      "splash": "Veigar",
+      "carry": [
+        "Veigar"
+      ],
+      "tank": [
+        "Rek'Sai"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Sett"
+          ]
+        },
+        {
+          "seviye": 9,
+          "birimler": [
+            "Fiddlesticks",
+            "Rammus"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Kobuko",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Rek'Sai",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Veigar",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Teemo",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 4
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Rammus",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Sett",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 6
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 2
+        }
+      ],
+      "oyuncu_notu": "Şartlı komp: Flora Fatalis amblemi gerekli. Consuming Flora augment ile Veigar carry. Kobuko ve Rek'Sai frontline."
+    },
+    {
+      "isim": "Cursed Crown Kayle",
+      "tier": "X",
+      "rozet": "S",
+      "playstyle": "2 Cost Reroll",
+      "sart": "Lanetli Taç (Cursed Crown) eklentisi",
+      "splash": "Kayle",
+      "carry": [
+        "Kayle",
+        "Xayah"
+      ],
+      "tank": [
+        "Ornn"
+      ],
+      "flex": [],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Leona",
+          "yildiz": 3,
+          "sira": 2,
+          "slot": 5
+        },
+        {
+          "ad": "Ornn",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Rakan",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Xayah",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Elise",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 5
+        },
+        {
+          "ad": "Kayle",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "LeBlanc",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Sejuani",
+          "yildiz": 3,
+          "sira": 2,
+          "slot": 4
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 1
+        }
+      ],
+      "oyuncu_notu": "Şartlı komp: Lanetli Taç eklentisi gerekli. 8 birim slots ile herkesi 3-star yap. Kayle carry, Solar + Rapidfire sinerjisi."
+    },
+    {
+      "isim": "Trait Ladder",
+      "tier": "X",
+      "rozet": "S",
+      "playstyle": "Fast 9",
+      "sart": "Trait Ladder eklentisi",
+      "splash": "Fiddlesticks",
+      "carry": [
+        "Aphelios"
+      ],
+      "tank": [
+        "Fiddlesticks"
+      ],
+      "flex": [
+        {
+          "seviye": 8,
+          "birimler": [
+            "Amumu"
+          ]
+        },
+        {
+          "seviye": 9,
+          "birimler": [
+            "Draven",
+            "Kennen",
+            "Lux"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Ornn",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Rakan",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 6
+        },
+        {
+          "ad": "Xayah",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "LeBlanc",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 3
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 3
+        },
+        {
+          "ad": "Fiddlesticks",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 2
+        },
+        {
+          "ad": "Kha'Zix",
+          "yildiz": 2,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Aphelios",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 3,
+          "slot": 7
+        }
+      ],
+      "oyuncu_notu": "Şartlı komp: Trait Ladder eklentisi gerekli. Max sinerji odaklı komp. 8'de Amumu, 9'da flex: Draven, Kennen veya Lux (Ay/Kadim Orman/Fey)."
+    },
+    {
+      "isim": "Fae Tristana",
+      "tier": "X",
+      "rozet": "A",
+      "playstyle": "7 Lvl Reroll",
+      "sart": "Fey (Fae) amblemi",
+      "splash": "Tristana",
+      "carry": [
+        "Tristana",
+        "Sivir"
+      ],
+      "tank": [
+        "Rammus"
+      ],
+      "flex": [
+        {
+          "seviye": 9,
+          "birimler": [
+            "Ashe"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Kobuko",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 2
+        },
+        {
+          "ad": "Rakan",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        },
+        {
+          "ad": "Rammus",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Tristana",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Vi",
+          "yildiz": 3,
+          "sira": 2,
+          "slot": 4
+        },
+        {
+          "ad": "Lillia",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Sivir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        }
+      ],
+      "oyuncu_notu": "Şartlı komp: Fey amblemi gerekli. 3-cost reroll. Tristana carry, Rammus ve Vi frontline."
+    },
+    {
+      "isim": "Unrivaled Reroll",
+      "tier": "X",
+      "rozet": "B",
+      "playstyle": "7 Lvl Reroll",
+      "sart": "Gecenin Kıyısı (Edge of Night) eşyası",
+      "splash": "Kha'Zix",
+      "carry": [
+        "Rengar",
+        "Kha'Zix"
+      ],
+      "tank": [
+        "Hecarim"
+      ],
+      "flex": [
+        {
+          "birimler": [
+            "Kennen",
+            "Ahri",
+            "Soraka"
+          ]
+        }
+      ],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "LeBlanc",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Diana",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 6
+        },
+        {
+          "ad": "Hecarim",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 4
+        },
+        {
+          "ad": "Kha'Zix",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 2
+        },
+        {
+          "ad": "Rengar",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 1
+        },
+        {
+          "ad": "Aphelios",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 1
+        },
+        {
+          "ad": "Ezreal",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 2
+        },
+        {
+          "ad": "Çançiçeği",
+          "yildiz": 1,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Taş Kabuk",
+          "yildiz": 1,
+          "sira": 1,
+          "slot": 7
+        }
+      ],
+      "oyuncu_notu": "Şartlı komp: Gecenin Kıyısı eşyası gerekli. 3-cost reroll. Rengar, Hecarim ve Kha'Zix 3-star carry. Flex: Kennen, Ahri veya Soraka."
+    },
+    {
+      "isim": "Sprykin Rengar",
+      "tier": "X",
+      "rozet": "B",
+      "playstyle": "7 Lvl Reroll",
+      "sart": "Zıpırgil (Sprykin) amblemi Rengar'a",
+      "splash": "Rengar",
+      "carry": [
+        "Rengar",
+        "Tristana"
+      ],
+      "tank": [
+        "Rammus"
+      ],
+      "flex": [],
+      "swap": {},
+      "birimler": [
+        {
+          "ad": "Kobuko",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 3
+        },
+        {
+          "ad": "Rammus",
+          "yildiz": 3,
+          "sira": 1,
+          "slot": 5
+        },
+        {
+          "ad": "Rengar",
+          "yildiz": 3,
+          "sira": 3,
+          "slot": 7
+        },
+        {
+          "ad": "Tristana",
+          "yildiz": 3,
+          "sira": 4,
+          "slot": 7
+        },
+        {
+          "ad": "Lillia",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 2
+        },
+        {
+          "ad": "Sivir",
+          "yildiz": 2,
+          "sira": 4,
+          "slot": 5
+        },
+        {
+          "ad": "Gnar",
+          "yildiz": 2,
+          "sira": 3,
+          "slot": 4
+        }
+      ],
+      "oyuncu_notu": "Şartlı komp: Zıpırgil amblemi Rengar'a gerekli. 3-cost reroll. Rengar carry, Rammus ve Tristana 3-star. Flex: Fey veya Kadim Orman Lux."
+    }
+  ]
+}

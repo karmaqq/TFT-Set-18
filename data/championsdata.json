@@ -1,0 +1,809 @@
+{
+  "champions": [
+    {
+      "name": "Akali",
+      "cost": 1,
+      "traits": [
+        "Ravager",
+        "Inferno",
+        "Adaptor"
+      ],
+      "roller": [
+        "AD Fighter"
+      ],
+      "img": "img/profiles/akali.avif"
+    },
+    {
+      "name": "Camille",
+      "cost": 1,
+      "traits": [
+        "Ravager",
+        "Coven"
+      ],
+      "roller": [
+        "AD Fighter"
+      ],
+      "img": "img/profiles/camille.avif"
+    },
+    {
+      "name": "Közcük",
+      "cost": 1,
+      "traits": [
+        "Riftbeast",
+        "Hunter"
+      ],
+      "roller": [
+        "AD Caster"
+      ],
+      "img": "img/profiles/cinderling.avif"
+    },
+    {
+      "name": "Karma",
+      "cost": 1,
+      "traits": [
+        "Blossom",
+        "Spellweaver"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/karma.avif"
+    },
+    {
+      "name": "Kobuko",
+      "cost": 1,
+      "traits": [
+        "Sprykin",
+        "Brawler"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/kobuko.avif"
+    },
+    {
+      "name": "Leona",
+      "cost": 1,
+      "traits": [
+        "Solar",
+        "Defender"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/leona.avif"
+    },
+    {
+      "name": "Ornn",
+      "cost": 1,
+      "traits": [
+        "Elderwood",
+        "Defender"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/ornn.avif"
+    },
+    {
+      "name": "Çakıl",
+      "cost": 1,
+      "traits": [
+        "Riftbeast",
+        "Invoker"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/pebbles.avif"
+    },
+    {
+      "name": "Rakan",
+      "cost": 1,
+      "traits": [
+        "Juggernaut",
+        "Fae",
+        "Vanguard"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/rakan.avif"
+    },
+    {
+      "name": "Rek'Sai",
+      "cost": 1,
+      "traits": [
+        "Brawler",
+        "Blackthorn"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/reksai.avif"
+    },
+    {
+      "name": "Varus",
+      "cost": 1,
+      "traits": [
+        "Rapidfire",
+        "Inferno"
+      ],
+      "roller": [
+        "AD Caster"
+      ],
+      "img": "img/profiles/varus.avif"
+    },
+    {
+      "name": "Veigar",
+      "cost": 1,
+      "traits": [
+        "Sprykin",
+        "Spellweaver",
+        "Blackthorn"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/veigar.avif"
+    },
+    {
+      "name": "Xayah",
+      "cost": 1,
+      "traits": [
+        "Elderwood",
+        "Fae",
+        "Rapidfire"
+      ],
+      "roller": [
+        "AD Carry"
+      ],
+      "img": "img/profiles/xayah.avif"
+    },
+    {
+      "name": "Yorick",
+      "cost": 1,
+      "traits": [
+        "Juggernaut",
+        "Summoner",
+        "Blossom"
+      ],
+      "roller": [
+        "AD Tank"
+      ],
+      "img": "img/profiles/yorick.avif"
+    },
+    {
+      "name": "Alistar",
+      "cost": 2,
+      "traits": [
+        "Elderwood",
+        "Brawler"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/alistar.avif"
+    },
+    {
+      "name": "Caitlyn",
+      "cost": 2,
+      "traits": [
+        "Hunter",
+        "Coven"
+      ],
+      "roller": [
+        "AD Specialist"
+      ],
+      "img": "img/profiles/caitlyn.avif"
+    },
+    {
+      "name": "Elise",
+      "cost": 2,
+      "traits": [
+        "Vanguard",
+        "Coven"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/elise.avif"
+    },
+    {
+      "name": "Gromp",
+      "cost": 2,
+      "traits": [
+        "Riftbeast",
+        "Adaptor"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/gromp.avif"
+    },
+    {
+      "name": "Kayle",
+      "cost": 2,
+      "traits": [
+        "Solar",
+        "Rapidfire"
+      ],
+      "roller": [
+        "AP Specialist"
+      ],
+      "img": "img/profiles/kayle.avif"
+    },
+    {
+      "name": "LeBlanc",
+      "cost": 2,
+      "traits": [
+        "Elderwood",
+        "Spellweaver"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/leblanc.avif"
+    },
+    {
+      "name": "Alacakurt",
+      "cost": 2,
+      "traits": [
+        "Riftbeast",
+        "Ravager"
+      ],
+      "roller": [
+        "AD Reaper"
+      ],
+      "img": "img/profiles/murkwolf.avif"
+    },
+    {
+      "name": "Yampiri Yengeç",
+      "cost": 2,
+      "traits": [
+        "Juggernaut",
+        "Riftbeast"
+      ],
+      "roller": [
+        "AD Tank"
+      ],
+      "img": "img/profiles/scuttlecrab.avif"
+    },
+    {
+      "name": "Sejuani",
+      "cost": 2,
+      "traits": [
+        "Juggernaut",
+        "Solar"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/sejuani.avif"
+    },
+    {
+      "name": "Shen",
+      "cost": 2,
+      "traits": [
+        "Inferno",
+        "Defender"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/shen.avif"
+    },
+    {
+      "name": "Teemo",
+      "cost": 2,
+      "traits": [
+        "Sprykin",
+        "Invoker"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/teemo.avif"
+    },
+    {
+      "name": "Warwick",
+      "cost": 2,
+      "traits": [
+        "Blackthorn",
+        "Ravager"
+      ],
+      "roller": [
+        "AD Fighter"
+      ],
+      "img": "img/profiles/warwick.avif"
+    },
+    {
+      "name": "Yunara",
+      "cost": 2,
+      "traits": [
+        "Blossom",
+        "Executioner"
+      ],
+      "roller": [
+        "AD Carry"
+      ],
+      "img": "img/profiles/yunara.avif"
+    },
+    {
+      "name": "Azir",
+      "cost": 3,
+      "traits": [
+        "Summoner",
+        "Executioner",
+        "Blackthorn"
+      ],
+      "roller": [
+        "AP Carry"
+      ],
+      "img": "img/profiles/azir.avif"
+    },
+    {
+      "name": "Cassiopeia",
+      "cost": 3,
+      "traits": [
+        "Spellweaver",
+        "Coven"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/cassiopeia.avif"
+    },
+    {
+      "name": "Diana",
+      "cost": 3,
+      "traits": [
+        "Lunar",
+        "Vanguard",
+        "Ravager"
+      ],
+      "roller": [
+        "AP Fighter"
+      ],
+      "img": "img/profiles/diana.avif"
+    },
+    {
+      "name": "Fiddlesticks",
+      "cost": 3,
+      "traits": [
+        "Spellweaver",
+        "Defender",
+        "Flora Fatalis"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/fiddlesticks.avif"
+    },
+    {
+      "name": "Hecarim",
+      "cost": 3,
+      "traits": [
+        "Elderwood",
+        "Vanguard"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/hecarim.avif"
+    },
+    {
+      "name": "Kha'Zix",
+      "cost": 3,
+      "traits": [
+        "Rival-Kha'Zix"
+      ],
+      "roller": [
+        "AP Reaper"
+      ],
+      "img": "img/profiles/khazix.avif"
+    },
+    {
+      "name": "Kog'Maw",
+      "cost": 3,
+      "traits": [
+        "Invoker",
+        "Adaptor",
+        "Caustic"
+      ],
+      "roller": [
+        "AD Caster"
+      ],
+      "img": "img/profiles/kogmaw.avif"
+    },
+    {
+      "name": "Kayacıl",
+      "cost": 3,
+      "traits": [
+        "Riftbeast",
+        "Brawler"
+      ],
+      "roller": [
+        "AD Tank"
+      ],
+      "img": "img/profiles/krug.avif"
+    },
+    {
+      "name": "Master Yi",
+      "cost": 3,
+      "traits": [
+        "Blossom",
+        "Adaptor"
+      ],
+      "roller": [
+        "AD Specialist"
+      ],
+      "img": "img/profiles/masteryi.avif"
+    },
+    {
+      "name": "Anne Gaga",
+      "cost": 3,
+      "traits": [
+        "Summoner",
+        "Riftbeast",
+        "Rapidfire"
+      ],
+      "roller": [
+        "AD Carry"
+      ],
+      "img": "img/profiles/mamabeak.avif"
+    },
+    {
+      "name": "Rammus",
+      "cost": 3,
+      "traits": [
+        "Sprykin",
+        "Defender"
+      ],
+      "roller": [
+        "AD Tank"
+      ],
+      "img": "img/profiles/rammus.avif"
+    },
+    {
+      "name": "Rengar",
+      "cost": 3,
+      "traits": [
+        "Rival-Rengar"
+      ],
+      "roller": [
+        "AD Fighter"
+      ],
+      "img": "img/profiles/rengar.avif"
+    },
+    {
+      "name": "Tristana",
+      "cost": 3,
+      "traits": [
+        "Sprykin",
+        "Fae",
+        "Hunter"
+      ],
+      "roller": [
+        "AD Carry"
+      ],
+      "img": "img/profiles/tristana.avif"
+    },
+    {
+      "name": "Vi",
+      "cost": 3,
+      "traits": [
+        "Primal",
+        "Juggernaut"
+      ],
+      "roller": [
+        "AD Tank"
+      ],
+      "img": "img/profiles/vi.avif"
+    },
+    {
+      "name": "Ahri",
+      "cost": 4,
+      "traits": [
+        "Blossom",
+        "Spellweaver"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/ahri.avif"
+    },
+    {
+      "name": "Amumu",
+      "cost": 4,
+      "traits": [
+        "Juggernaut",
+        "Inferno"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/amumu.avif"
+    },
+    {
+      "name": "Aphelios",
+      "cost": 4,
+      "traits": [
+        "Rapidfire",
+        "Lunar"
+      ],
+      "roller": [
+        "AD Carry"
+      ],
+      "img": "img/profiles/aphelios.avif"
+    },
+    {
+      "name": "Korkabuk",
+      "cost": 4,
+      "traits": [
+        "Riftbeast",
+        "Ravager"
+      ],
+      "roller": [
+        "AD Fighter"
+      ],
+      "img": "img/profiles/brambleback.avif"
+    },
+    {
+      "name": "Ezreal",
+      "cost": 4,
+      "traits": [
+        "Elderwood",
+        "Executioner"
+      ],
+      "roller": [
+        "AD Caster"
+      ],
+      "img": "img/profiles/ezreal.avif"
+    },
+    {
+      "name": "Lillia",
+      "cost": 4,
+      "traits": [
+        "Fae",
+        "Defender"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/lillia.avif"
+    },
+    {
+      "name": "Malphite",
+      "cost": 4,
+      "traits": [
+        "Monolith",
+        "Blackthorn"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/malphite.avif"
+    },
+    {
+      "name": "Morgana",
+      "cost": 4,
+      "traits": [
+        "Invoker",
+        "Coven"
+      ],
+      "roller": [
+        "AP Fighter"
+      ],
+      "img": "img/profiles/morgana.avif"
+    },
+    {
+      "name": "Nidalee",
+      "cost": 4,
+      "traits": [
+        "Primal",
+        "Adaptor"
+      ],
+      "roller": [
+        "AP Carry"
+      ],
+      "img": "img/profiles/nidalee.avif"
+    },
+    {
+      "name": "Gözcü",
+      "cost": 4,
+      "traits": [
+        "Riftbeast",
+        "Invoker",
+        "Vanguard"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/sentinel.avif"
+    },
+    {
+      "name": "Sett",
+      "cost": 4,
+      "traits": [
+        "Blossom",
+        "Brawler"
+      ],
+      "roller": [
+        "AD Tank"
+      ],
+      "img": "img/profiles/sett.avif"
+    },
+    {
+      "name": "Sivir",
+      "cost": 4,
+      "traits": [
+        "Primal",
+        "Hunter"
+      ],
+      "roller": [
+        "AD Caster"
+      ],
+      "img": "img/profiles/sivir.avif"
+    },
+    {
+      "name": "Soraka",
+      "cost": 4,
+      "traits": [
+        "Executioner",
+        "Flora Fatalis"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/soraka.avif"
+    },
+    {
+      "name": "Zyra",
+      "cost": 4,
+      "traits": [
+        "Summoner",
+        "Thornmaiden"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/zyra.avif"
+    },
+    {
+      "name": "Alune",
+      "cost": 5,
+      "traits": [
+        "Lunar",
+        "Spellweaver",
+        "Attuned"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/alune.avif"
+    },
+    {
+      "name": "Ashe",
+      "cost": 5,
+      "traits": [
+        "Hunter",
+        "Blossom"
+      ],
+      "roller": [
+        "AD Caster"
+      ],
+      "img": "img/profiles/ashe.avif"
+    },
+    {
+      "name": "Draven",
+      "cost": 5,
+      "traits": [
+        "Bounty Seeker"
+      ],
+      "roller": [
+        "AD Carry"
+      ],
+      "img": "img/profiles/draven.avif"
+    },
+    {
+      "name": "Kadim Ejderha",
+      "cost": 5,
+      "traits": [
+        "Riftbeast",
+        "Apex Predator"
+      ],
+      "roller": [
+        "AD Fighter"
+      ],
+      "img": "img/profiles/elderdragon.avif"
+    },
+    {
+      "name": "Gnar",
+      "cost": 5,
+      "traits": [
+        "Sprykin",
+        "Elderwood",
+        "Brawler"
+      ],
+      "roller": [
+        "AD Specialist"
+      ],
+      "img": "img/profiles/gnar.avif"
+    },
+    {
+      "name": "Ivern",
+      "cost": 5,
+      "traits": [
+        "Greenfather"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/ivern.avif"
+    },
+    {
+      "name": "Kennen",
+      "cost": 5,
+      "traits": [
+        "Inferno",
+        "Executioner"
+      ],
+      "roller": [
+        "AP Reaper"
+      ],
+      "img": "img/profiles/kennen.avif"
+    },
+    {
+      "name": "Lux",
+      "cost": 5,
+      "traits": [
+        "Avatar"
+      ],
+      "roller": [
+        "AP Caster"
+      ],
+      "img": "img/profiles/lux.avif"
+    },
+    {
+      "name": "Maokai",
+      "cost": 5,
+      "traits": [
+        "Juggernaut",
+        "Old Growth"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/maokai.avif"
+    },
+    {
+      "name": "Taric",
+      "cost": 5,
+      "traits": [
+        "Emerald Aspect",
+        "Vanguard"
+      ],
+      "roller": [
+        "AP Tank"
+      ],
+      "img": "img/profiles/taric.avif"
+    },
+    {
+      "name": "Taş Kabuk",
+      "cost": 0,
+      "traits": [],
+      "roller": [],
+      "img": "img/profiles/taskabuk.webp",
+      "isSummon": true
+    },
+    {
+      "name": "Çançiçeği",
+      "cost": 0,
+      "traits": [],
+      "roller": [],
+      "img": "img/profiles/cancicegi.webp",
+      "isSummon": true
+    }
+  ]
+}

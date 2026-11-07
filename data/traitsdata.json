@@ -1,0 +1,390 @@
+{
+  "traits": {
+    "specialTraits": {
+      "apex-predator": {
+        "name": "Apex Predator",
+        "icon": "ustunyirtici",
+        "turkce": "Üstün Yırtıcı",
+        "generalDesc": "Kadim Ejderha takımında <span class='t-highlight'>2</span> birimlik yer kaplar ve Vadi Canavarı özelliğine +<span class='t-highlight'>2</span> katkı sağlar.",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "attuned": {
+        "name": "Attuned",
+        "icon": "harmoni",
+        "turkce": "Harmoni",
+        "generalDesc": "En güçlü Alune birimin her yetenek kullanımından sonra yeni bir ay evresine geçer. Ay, yarım veya yarıma yakınken takımın <b class='txt-bold'>%7</b> Dayanıklılık kazanır. Ay, yarımı geçtiyse takımın <b class='txt-bold'>%7</b> Hasar Artışı kazanır.",
+        "preDesc": "Yeni Ay — <b class='txt-bold'>%7</b> [dr]<br>Yeni Ay — <b class='txt-bold'>%7</b> [dr]<br>Yarım Ay — <b class='txt-bold'>%7</b> [dr]<br>Şişkin Ay — <b class='txt-bold'>%7</b> [amp]<br>Dolunay — <b class='txt-bold'>%7</b> [amp]",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "avatar": {
+        "name": "Avatar",
+        "icon": "avatar",
+        "turkce": "Avatar",
+        "generalDesc": "Yedek kulübesinde veya tahtanda bir Avatar bulundurmak, dükkânındaki diğer tüm Avatarları o Avatar'ın özelliğine dönüştürür.<br><br>Avatar'ın seçilen özelliği, özellik ilaveleri için iki defa sayılır.",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "bounty-seeker": {
+        "name": "Bounty Seeker",
+        "icon": "odulavcisi",
+        "turkce": "Ödül Avcısı",
+        "generalDesc": "Bir görev seçersin. En güçlü Draven birimin görevi ilerleterek ödül kazanabilir. Bir görevi tamamladığında başka bir tane seçersin.",
+        "preDesc": "<b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>50</b> kez saldırsın.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>5</b> Altınlık rasgele <b class='txt-bold'>1</b> şampiyon<br><b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>5</b> defa yetenek kullansın.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>4</b> Altınlık rasgele <b class='txt-bold'>2</b> şampiyon<br><b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>8</b> defa yetenek kullansın.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>10</b> dükkân yenileme hakkı<br><b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>8000</b> Hasar versin.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>7</b> Altın<br><b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>35000</b> Hasar versin.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>1</b> TEK Kılıcı<br><b class='txt-bold'>Görev:</b> Draven oyunculara karşı bir çatışmada en az <b class='txt-bold'>10000</b> Hasar versin.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>15</b> Altın<br><b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>6</b> skor alsın.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>12</b> Altın<br><b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>15</b> skor alsın.<br><b class='txt-bold'>Ödül:</b> Rasgele <b class='txt-bold'>1</b> tamamlanmış eşya kazanırsın.<br><b class='txt-bold'>Görev:</b> Çatışmada Draven takımında en çok hasarı versin.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>2</b> dükkân yenilemesi<br><b class='txt-bold'>Görev:</b> Draven oyunculara karşı <b class='txt-bold'>3</b> çatışmada hayatta kalsın.<br><b class='txt-bold'>Ödül:</b> Rasgele <b class='txt-bold'>2</b> bileşen eşya<br><b class='txt-bold'>Görev:</b> Draven <b class='txt-bold'>14</b> alt etme gerçekleştirsin.<br><b class='txt-bold'>Ödül:</b> <b class='txt-bold'>10</b> XP",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "caustic": {
+        "name": "Caustic",
+        "icon": "yipratici",
+        "turkce": "Yıpratıcı",
+        "generalDesc": "Yıpratıcı hasarı, rakipleri <b class='txt-bold'>4</b> saniyeliğine <b class='txt-bold'>%30</b> aşındırır ve örseler.<br><br><b class='txt-info'>Örseleme: Örselenen birimlerin büyü direnci azalır.<br>Aşındırma: Aşındırılan birimlerin zırhı azalır.</b>",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "emerald-aspect": {
+        "name": "Emerald Aspect",
+        "icon": "zumrutsuret",
+        "turkce": "Zümrüt Suret",
+        "generalDesc": "Bir dost birimi en güçlü Taric biriminin üzerine sürükleyerek onunla eşleştir ve Taric'in yeteneğiyle bu birime güçlü ilaveler kazandırmasını sağla.",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "greenfather": {
+        "name": "Greenfather",
+        "icon": "dogaseverbaba",
+        "turkce": "Doğasever Baba",
+        "generalDesc": "En güçlü Ivern birimin yetenek kullandığında <b class='txt-bold'>1</b> tohum kazanırsın. Ayrıca her çatışmada <b class='txt-bold'>3</b> tane kazanırsın. Ivern <b class='txt-bold'>5</b> tohumu kullanarak tahtanda bir hücre yetiştirir. Bu hücre üzerindeki birime bir ilave kazandırır.<br><br>Tohum: –/5",
+        "preDesc": "Çiçek: 10%/15%/200% [as]<br>Mantar: 8%/12%/200% [amp]<br>Kayalık: 8/12/500 [armor] [mr]<br>Ağaçlar: 8%/12%/200% [hp]<br>Su: 1/2/30 [mana]",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "monolith": {
+        "name": "Monolith",
+        "icon": "monolit",
+        "turkce": "Monolit",
+        "generalDesc": "Monolitler kendilerini hedef alan her rakip başına <b class='txt-bold'>10</b> Zırh ve Büyü Direnci kazanır.",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "old-growth": {
+        "name": "Old Growth",
+        "icon": "kadimbuyume",
+        "turkce": "Kadim Büyüme",
+        "generalDesc": "<b class='txt-bold'>3</b> hücre içindeki bir rakip katledildiğinde en güçlü Kadim Büyüme şampiyonun kalıcı olarak <b class='txt-bold'>30</b> Azami Can kazanır.<br><br>Mevcut: 0",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "rival": {
+        "name": "Rival",
+        "icon": "hasim",
+        "turkce": "Hasım",
+        "generalDesc": "Hasımlar alt etme toplar. Başka bir Hasım'ı alt ettiklerinde <b class='txt-bold'>3</b> alt etme toplarlar.<br><br><b class='txt-info'>Sadece 1 Hasım ileri sürüldüğünde etkin olur.</b>",
+        "thresholds": [
+          { "count": 1, "rank": "tier-special" },
+          { "count": 2, "rank": "tier-special" }
+        ]
+      },
+      "rival-khazix": {
+        "name": "Rival Kha'Zix",
+        "icon": "hasim",
+        "turkce": "Hasım",
+        "preDesc": "Alt etmeler Kha'Zix'i geliştirir ve İnfazcı, Bombardımancı, Tahripkâr ve Sihirkâr arasından seçtiğin özelliği ona kalıcı olarak kazandırır.",
+        "postDesc": "Kha'Zix'in Alt Etmesi: –/–",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "rival-rengar": {
+        "name": "Rival Rengar",
+        "icon": "hasim",
+        "turkce": "Hasım",
+        "preDesc": "Rengar her <b class='txt-bold'>8</b> alt etmede <b class='txt-bold'>2/3/5</b> Altın kazandırır. <b class='txt-bold'>30</b> alt etmenin ardından takımın <b class='txt-bold'>%5</b> Saldırı Gücü ve her ilave alt etme başına <b class='txt-bold'>%0.2</b> kazanır.",
+        "postDesc": "Rengar'ın Alt Etmesi: –<br>Kazanılan Altın: –",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "thornmaiden": {
+        "name": "Thornmaiden",
+        "icon": "dikenlileydi",
+        "turkce": "Dikenli Leydi",
+        "generalDesc": "Takımın <b class='txt-bold'>%5</b> Dayanıklılık kazanır. En az <b class='txt-bold'>6</b> Zyra bitkisi hayattaysa bu ilave artarak <b class='txt-bold'>%10</b> olur.",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      },
+      "eclipse": {
+        "name": "Eclipse",
+        "icon": "tutulma",
+        "turkce": "Tutulma",
+        "generalDesc": "Çatışma başladıktan <b class='txt-bold'>10</b> saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her <b class='txt-bold'>3.5</b> saniyede bir tekrarlanır.",
+        "sart": "3 Solar + 3 Lunar",
+        "thresholds": [{ "count": 1, "rank": "tier-special" }]
+      }
+    },
+
+    "originTraits": {
+      "blackthorn": {
+        "name": "Blackthorn",
+        "icon": "karadiken",
+        "turkce": "Karadiken",
+        "generalDesc": "Karadiken hücresindeki dost birim çatışma öncesinde feda edilir ve şampiyonlarına can kazandırır.<br><br>Karadiken şampiyonları feda edilen birimin rolüne, yıldız seviyesine ve bedeline bağlı olarak ilave nitelikler kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "[hp]<b class='txt-bold'>175</b>" },
+          { "count": 4, "rank": "tier-2", "desc": "[hp]<b class='txt-bold'>300</b>; İlave <b class='txt-bold'>%0</b> daha güçlü olur." },
+          { "count": 6, "rank": "tier-3", "desc": "[hp]<b class='txt-bold'>550</b>; İlave <b class='txt-bold'>%60</b> daha güçlü olur." }
+        ]
+      },
+      "blossom": {
+        "name": "Blossom",
+        "icon": "cicek",
+        "turkce": "Çiçek",
+        "generalDesc": "Çatışmadan sonra ruhların güçlenir.<br><br>Çiçek şampiyonları saldırı gücü, yetenek gücü ve <b class='txt-bold'>%10</b> Azami Can kazanır.",
+        "thresholds": [
+          { "count": 3, "rank": "tier-1", "desc": "Ruhlar gelişir, [ad][ap] <b class='txt-bold'>%12</b>" },
+          { "count": 5, "rank": "tier-2", "desc": "Ruhlar her dükkân yenilemesinde çıkar, [ad][ap] <b class='txt-bold'>%30</b>" },
+          { "count": 7, "rank": "tier-2", "desc": "Bir ruh aldıktan sonra <b class='txt-bold'>4</b> Altın kazanırsın, [ad][ap] <b class='txt-bold'>%40</b>" },
+          { "count": 9, "rank": "tier-3", "desc": "Tur başına 2 ruh alabilirsin, [ad][ap] <b class='txt-bold'>%45</b>" },
+          { "count": 11, "rank": "tier-prismatic", "desc": "Ruhlar güçle dolup taşar. Şampiyonlar [ad][ap] <b class='txt-bold'>%100</b> kazanır." }
+        ]
+      },
+      "coven": {
+        "name": "Coven",
+        "icon": "cadilarmeclisi",
+        "turkce": "Cadılar Meclisi",
+        "generalDesc": "Takımın şampiyon katlettiğinde öz kazanırsın. Oyunculara karşı çatışma kaybettiğinde daha fazla öz kazanırsın.<br><br><b class='txt-bold'>40</b> Özden itibaren özü ödüllere dönüştürmeyi veya öz kazanmaya devam etmeyi seçebilirsin. Her ödül daha fazla öz gerektirir.",
+        "thresholds": [
+          { "count": 3, "rank": "tier-1", "desc": "Katletme başına <b class='txt-bold'>2</b> Öz, mağlubiyet başına <b class='txt-bold'>18</b> Öz" },
+          { "count": 4, "rank": "tier-2", "desc": "Katletme başına <b class='txt-bold'>2</b> Öz, mağlubiyet başına <b class='txt-bold'>18</b> Öz" },
+          { "count": 5, "rank": "tier-2", "desc": "Katletme başına <b class='txt-bold'>3</b> Öz, mağlubiyet başına <b class='txt-bold'>32</b> Öz" },
+          { "count": 7, "rank": "tier-3", "desc": "Katletme başına <b class='txt-bold'>10</b> Öz, mağlubiyet başına <b class='txt-bold'>60</b> Öz" }
+        ]
+      },
+      "elderwood": {
+        "name": "Elderwood",
+        "icon": "kadimorman",
+        "turkce": "Kadim Orman",
+        "generalDesc": "Yerleştirilebilir Kadim Orman bitkileri kazanırsın.",
+        "thresholds": [
+          { "count": 3, "rank": "tier-1", "desc": "Bir Taşkabuk Ağacı ve bir Cançiçeği kazanırsın." },
+          { "count": 5, "rank": "tier-2", "desc": "İkinci bir Taşkabuk Ağacı kazanırsın ve Taşkabuk Ağaçları 200 Can kazanır." },
+          { "count": 7, "rank": "tier-3", "desc": "Ayrıca Derin Orman Koruyucusu'nu kazanırsın." },
+          { "count": 9, "rank": "tier-3", "desc": "Bitkiler 2 yıldıza yükselir." },
+          { "count": 11, "rank": "tier-prismatic", "desc": "Bitkiler 3 yıldıza yükselir ve orman canlanır." }
+        ]
+      },
+      "fae": {
+        "name": "Fae",
+        "icon": "fey",
+        "turkce": "Fey",
+        "generalDesc": "Takımının hasar, iyileştirme ve kalkan etkileri perileri çeker.<br><br>Her peri, Fey şampiyonlarına [ad] ile [ap] kazandırır. Ayrıca canları <b class='txt-bold'>%50</b> değerinin altına düştükten sonra her peri başına iyileşirler.",
+        "postDesc": "Takımın <b class='txt-bold'>7</b> peri çektikten sonra bunların yerine altın kazandıran altın perileri çekmeye başlar.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "[ad]<b class='txt-bold'>%5</b> [ap]<b class='txt-bold'>%5</b> ve <b class='txt-bold'>%2</b> İyileştirme." },
+          { "count": 4, "rank": "tier-2", "desc": "[ad]<b class='txt-bold'>%8</b> [ap]<b class='txt-bold'>%8</b> ve <b class='txt-bold'>%4</b> İyileştirme." }
+        ]
+      },
+      "flora-fatalis": {
+        "name": "Flora Fatalis",
+        "icon": "florafatalis",
+        "turkce": "Flora Fatalis",
+        "generalDesc": "",
+        "thresholds": [
+          { "count": 1, "rank": "tier-1", "desc": "<b class='txt-bold'>10</b> Mana" },
+          { "count": 2, "rank": "tier-2", "desc": "Ayrıca canı en düşük dost birimi azami canının <b class='txt-bold'>%8</b> kadarına eşdeğer miktarda iyileştirirler." }
+        ]
+      },
+      "inferno": {
+        "name": "Inferno",
+        "icon": "alev",
+        "turkce": "Alev",
+        "generalDesc": "Alev birimlerinin hasarı rakipleri <b class='txt-bold'>4</b> saniyeliğine <span class='t-highlight'>yakar</span> ve <span class='t-highlight'>yaralar</span>. Alev özelliğinden gelen yakma etkisi diğer yakma etkileriyle birikir.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>%1</b> Yakma, <b class='txt-bold'>%33</b> Yara etkisi kazanır." },
+          { "count": 3, "rank": "tier-2", "desc": "Çatışmadan sonra dükkânındaki Alev şampiyonu içermeyen <b class='txt-bold'>1</b> yuva yanar ve bir aşama daha yüksek bir şampiyon gelir." },
+          { "count": 5, "rank": "tier-3", "desc": "Dükkânındaki <b class='txt-bold'>2</b> yuva yanar, <b class='txt-bold'>%2</b> Yakma etkisi kazanırsın." },
+          { "count": 7, "rank": "tier-prismatic", "desc": "Dükkânındaki <b class='txt-bold'>4</b> yuva yanar, <b class='txt-bold'>%3</b> Yakma etkisi kazanırsın." }
+        ]
+      },
+      "lunar": {
+        "name": "Lunar",
+        "icon": "ay",
+        "turkce": "Ay",
+        "generalDesc": "Ay şampiyonları ve bitişiklerindeki dost birimler saldırı hızı ve yetenek gücü kazanır. Ay şampiyonları <b class='txt-bold'>%100</b> daha fazla kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "[as]<b class='txt-bold'>%7</b> [ap]<b class='txt-bold'>%7</b>" },
+          { "count": 3, "rank": "tier-2", "desc": "[as]<b class='txt-bold'>%10</b> [ap]<b class='txt-bold'>%10</b>" },
+          { "count": 4, "rank": "tier-2", "desc": "[as]<b class='txt-bold'>%14</b> [ap]<b class='txt-bold'>%14</b>" },
+          { "count": 5, "rank": "tier-3", "desc": "[as]<b class='txt-bold'>%18</b> [ap]<b class='txt-bold'>%18</b>" }
+        ]
+      },
+      "primal": {
+        "name": "Primal",
+        "icon": "ilkel",
+        "turkce": "İlkel",
+        "generalDesc": "Dört İlkel lütuftan birini seçersin.<br><br>İlkellerin hasarı canı <b class='txt-bold'>%12</b> değerinin altındaki rakipleri infaz eder.<br>Her <b class='txt-bold'>15</b> İlkel alt etmesinde bir <b class='txt-bold'>1</b> bileşen eşya kazanırsın (en fazla 4).<br><b class='txt-bold'>6</b> saniye sonra İlkel şampiyonlar <b class='txt-bold'>%35</b> Saldırı Hızı, takımın ise <b class='txt-bold'>%15</b> Saldırı Hızı kazanır.<br>Takımın <b class='txt-bold'>4</b> saniyede bir azami canlarının <b class='txt-bold'>%4</b> kadarına eşdeğer miktarda can yeniler.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "-" },
+          { "count": 4, "rank": "tier-2", "desc": "-" }
+        ]
+      },
+      "solar": {
+        "name": "Solar",
+        "icon": "gunes",
+        "turkce": "Güneş",
+        "generalDesc": "",
+        "postDescPlain": true,
+        "postDesc": "1 : Kalkan miktarı ve büyü hasarı her 3 yıldızlı şampiyon için <b class='txt-bold'>%1.5</b> artar.<br>3 : <b class='txt-bold'>%18</b> ve <b class='txt-bold'>%15</b><br>5 : İlave büyü hasarının <b class='txt-bold'>%50</b> kadarı gerçek hasara dönüşür.<br>8 : Çatışmada her <b class='txt-bold'>4</b> saniyede bir 3 yıldızlı bir şampiyon <b class='txt-bold'>4</b> yıldıza yükselir.",
+        "thresholds": [
+          { "count": 3, "rank": "tier-1", "desc": "Şampiyonların <b class='txt-bold'>%5</b> Azami Cana eşdeğer miktarda kalkan kazanır ve <b class='txt-bold'>%7</b> İlave Büyü Hasarı verir. Ayrıca her farklı 3 yıldızlı şampiyon için ilaveler kazanırlar:" }
+        ]
+      },
+      "sprykin": {
+        "name": "Sprykin",
+        "icon": "zipirgil",
+        "turkce": "Zıpırgil",
+        "generalDesc": "Büyük tüylü dostu kazanırsın. Binicisini seçmek için büyük tüylü dostun üzerine bir Zıpırgil bırak.",
+        "thresholds": [
+          { "count": 3, "rank": "tier-1", "desc": "Binici [hp]<b class='txt-bold'>%15</b> ve [as]<b class='txt-bold'>%15</b> kazanır." },
+          { "count": 5, "rank": "tier-2", "desc": "[hp]<b class='txt-bold'>%40</b>, [as]<b class='txt-bold'>%35</b> ve büyük tüylü dostun yeteneğinin <b class='txt-bold'>%0</b> kadarı Zıpırgil şampiyonlarına uygulanır." },
+          { "count": 7, "rank": "tier-3", "desc": "[hp]<b class='txt-bold'>%45</b>, [as]<b class='txt-bold'>%45</b> ve büyük tüylü dostun yeteneğinin <b class='txt-bold'>%100</b> kadarı Zıpırgil şampiyonlarına uygulanır." }
+        ]
+      },
+      "riftbeast": {
+        "name": "Riftbeast",
+        "icon": "vadicanavari",
+        "turkce": "Vadi Canavarı",
+        "generalDesc": "",
+        "thresholds": [
+          { "count": 3, "rank": "tier-1", "desc": "Bir Vadi Canavarı'na kendisine özel güçlendirmesini kazandırmak için Alfa İşareti'ni kullan." },
+          { "count": 5, "rank": "tier-2", "desc": "Her <b class='txt-bold'>3</b> çatışmada bir, sonraki dükkânın Vadi Canavarlarının istilasına uğrar." },
+          { "count": 7, "rank": "tier-3", "desc": "Çatışma başlangıcında ve her <b class='txt-bold'>5</b> saniyede bir Vadi Canavarları büyüyerek [ad]<b class='txt-bold'>%6</b> [ap]<b class='txt-bold'>%6</b> [as]<b class='txt-bold'>%6</b> [armor]<b class='txt-bold'>+5</b> [mr]<b class='txt-bold'>+5</b> [hp]<b class='txt-bold'>+50</b> [mana]<b class='txt-bold'>+1</b> kazanır." },
+          { "count": 10, "rank": "tier-prismatic", "desc": "<b class='txt-bold'>2</b> Azami Takım Boyutu kazanırsın." }
+        ]
+      }
+    },
+
+    "classTraits": {
+      "adaptor": {
+        "name": "Adaptor",
+        "icon": "ahenkli",
+        "turkce": "Ahenkli",
+        "generalDesc": "<b class='txt-bold'>Karakteristik:</b> Ahenkli yetenekleri, saldırı gücü veya yetenek gücü değerlerinden hangisinin daha yüksek olduğuna göre değişir.<br><br>Ahenkliler, hangisi daha yüksekse ona göre yetenek gücü veya saldırı gücü kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>%25</b> [as] VEYA [ap]" },
+          { "count": 3, "rank": "tier-2", "desc": "<b class='txt-bold'>%35</b> [as] VEYA [ap]" },
+          { "count": 4, "rank": "tier-3", "desc": "<b class='txt-bold'>%50</b> [as] VEYA [ap]" }
+        ]
+      },
+      "brawler": {
+        "name": "Brawler",
+        "icon": "dovuscu",
+        "turkce": "Dövüşçü",
+        "generalDesc": "Takımın <b class='txt-bold'>120</b> Azami Can kazanır. Dövüşçüler daha fazlasını kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>%25</b> [hp]" },
+          { "count": 4, "rank": "tier-2", "desc": "<b class='txt-bold'>%40</b> [hp]" },
+          { "count": 6, "rank": "tier-3", "desc": "<b class='txt-bold'>%65</b> [hp]" }
+        ]
+      },
+      "defender": {
+        "name": "Defender",
+        "icon": "savunucu",
+        "turkce": "Savunucu",
+        "generalDesc": "Takımın <b class='txt-bold'>12</b> Zırh ve Büyü Direnci kazanır. Savunucular daha fazlasını kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>25</b> [armor][mr]" },
+          { "count": 4, "rank": "tier-2", "desc": "<b class='txt-bold'>60</b> [armor][mr]" },
+          { "count": 6, "rank": "tier-3", "desc": "<b class='txt-bold'>120</b> [armor][mr]" }
+        ]
+      },
+      "executioner": {
+        "name": "Executioner",
+        "icon": "infazci",
+        "turkce": "İnfazcı",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "İnfazcılar <span class='t-highlight'>isabetlilik</span> ve <b class='txt-bold'>%20</b> Kritik Vuruş İhtimali kazanır." },
+          { "count": 3, "rank": "tier-2", "desc": "Ayrıca rakipler <b class='txt-bold'>3</b> saniye boyunca kanayarak <b class='txt-bold'>%30</b> İlave Gerçek Hasar alır." },
+          { "count": 4, "rank": "tier-3", "desc": "Kanama hasarı artarak <b class='txt-bold'>%40</b> olur." }
+        ]
+      },
+      "hunter": {
+        "name": "Hunter",
+        "icon": "avci",
+        "turkce": "Avcı",
+        "generalDesc": "Avcılar saldırı gücü kazanır. Bir Avcı <b class='txt-bold'>4</b> saniye boyunca hedef değiştirmezse <b class='txt-bold'>%10</b> Hasar Artışı kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>%20</b> [ad]" },
+          { "count": 3, "rank": "tier-2", "desc": "<b class='txt-bold'>%30</b> [ad]" },
+          { "count": 4, "rank": "tier-2", "desc": "<b class='txt-bold'>%45</b> [ad]" },
+          { "count": 5, "rank": "tier-3", "desc": "<b class='txt-bold'>%65</b> [ad]" }
+        ]
+      },
+      "invoker": {
+        "name": "Invoker",
+        "icon": "manabaz",
+        "turkce": "Manabaz",
+        "generalDesc": "Takımın mana yenilemesi kazanır, Manabazlar için artar.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>1</b> [mana] | <b class='txt-bold'>3</b> [mana]" },
+          { "count": 3, "rank": "tier-2", "desc": "<b class='txt-bold'>1</b> [mana] | <b class='txt-bold'>4</b> [mana]" },
+          { "count": 4, "rank": "tier-2", "desc": "<b class='txt-bold'>2</b> [mana] | <b class='txt-bold'>6</b> [mana]" },
+          { "count": 5, "rank": "tier-3", "desc": "<b class='txt-bold'>2</b> [mana] | <b class='txt-bold'>9</b> [mana]" }
+        ]
+      },
+      "juggernaut": {
+        "name": "Juggernaut",
+        "icon": "ezergecer",
+        "turkce": "Ezergeçer",
+        "generalDesc": "Takımın Dayanıklılık kazanır. Ezergeçerler daha fazlasını kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>%4</b> [dr] veya <b class='txt-bold'>%20</b> [dr]" },
+          { "count": 4, "rank": "tier-2", "desc": "<b class='txt-bold'>%6</b> [dr] veya <b class='txt-bold'>%33</b> [dr]" },
+          { "count": 6, "rank": "tier-3", "desc": "<b class='txt-bold'>%8</b> [dr] veya <b class='txt-bold'>%45</b> [dr]" }
+        ]
+      },
+      "rapidfire": {
+        "name": "Rapidfire",
+        "icon": "bombardimanci",
+        "turkce": "Bombardıman",
+        "generalDesc": "Takımın <b class='txt-bold'>%10</b> Saldırı Hızı kazanır. Bombardımancılar her saldırılarında daha fazlasını kazanır. Bu ilave <b class='txt-bold'>10</b> defaya kadar birikebilir.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "Saldırı başına [as]<b class='txt-bold'>+%3</b>" },
+          { "count": 3, "rank": "tier-2", "desc": "Saldırı başına [as]<b class='txt-bold'>+%5</b>" },
+          { "count": 4, "rank": "tier-2", "desc": "Saldırı başına [as]<b class='txt-bold'>+%9</b>" },
+          { "count": 5, "rank": "tier-3", "desc": "Saldırı başına [as]<b class='txt-bold'>+%15</b>" }
+        ]
+      },
+      "ravager": {
+        "name": "Ravager",
+        "icon": "tahripkar",
+        "turkce": "Tahripkâr",
+        "generalDesc": "Tahripkârlar <b class='txt-bold'>%10</b> Mutlak Sömürü kazanır. Ayrıca Tahripkârlar ilave hasar verir ve bu hasar canı <b class='txt-bold'>%50</b> değerinin altındaki birimlere karşı ikiye katlanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>%12</b> İlave Hasar" },
+          { "count": 4, "rank": "tier-2", "desc": "<b class='txt-bold'>%25</b> İlave Hasar" },
+          { "count": 6, "rank": "tier-3", "desc": "<b class='txt-bold'>%40</b> İlave Hasar" }
+        ]
+      },
+      "spellweaver": {
+        "name": "Spellweaver",
+        "icon": "sihirkar",
+        "turkce": "Sihirkâr",
+        "generalDesc": "Takımın <b class='txt-bold'>%10</b> Yetenek Gücü kazanır. Sihirkârlar daha fazlasını kazanır. Bir Sihirkâr yetenek kullandığında tüm Sihirkârlar fazladan yetenek gücü kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "[ap] <b class='txt-bold'>%10</b>, kullanım başına [ap] +<b class='txt-bold'>%1</b>" },
+          { "count": 4, "rank": "tier-2", "desc": "[ap] <b class='txt-bold'>%30</b>, kullanım başına [ap] +<b class='txt-bold'>%1</b>" },
+          { "count": 6, "rank": "tier-3", "desc": "[ap] <b class='txt-bold'>%55</b>, kullanım başına [ap] +<b class='txt-bold'>%2</b>" }
+        ]
+      },
+      "summoner": {
+        "name": "Summoner",
+        "icon": "efendi",
+        "turkce": "Efendi",
+        "generalDesc": "Efendiler çağırdıkları birimleri farklı şekillerde güçlendirir.<br><br>Yorick: <b class='txt-bold'>+%30</b> Can<br>Azir: <b class='txt-bold'>+%45</b> Hasar<br>Anne Gaga: <b class='txt-bold'>+%45</b> Hasar<br>Zyra: <b class='txt-bold'>+4</b> Bitki Saldırısı",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "Çağrılan birimler güçlenir." },
+          { "count": 3, "rank": "tier-2", "desc": "Her bir etki %50 artar." }
+        ]
+      },
+      "vanguard": {
+        "name": "Vanguard",
+        "icon": "oncu",
+        "turkce": "Öncü",
+        "generalDesc": "Çatışma başlangıcında ve canları <b class='txt-bold'>%50</b>'nin altına düştükten sonra Öncüler <b class='txt-bold'>10</b> saniye boyunca Azami Cana dayalı bir kalkan kazanır.",
+        "thresholds": [
+          { "count": 2, "rank": "tier-1", "desc": "<b class='txt-bold'>%18</b> Azami Can" },
+          { "count": 4, "rank": "tier-2", "desc": "<b class='txt-bold'>%30</b> Azami Can" },
+          { "count": 6, "rank": "tier-3", "desc": "<b class='txt-bold'>%40</b> Azami Can. Kalkan aktifken <b class='txt-bold'>%5</b> Dayanıklılık kazanır." }
+        ]
+      }
+    }
+  }
+}

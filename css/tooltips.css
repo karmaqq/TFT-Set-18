@@ -1,0 +1,304 @@
+.t-highlight {
+  color: #ffb93b !important;
+  font-weight: 800;
+}
+
+.txt-info {
+  color: #00f5e1 !important;
+  font-size: 400;
+  font-style: italic;
+}
+
+.txt-uniq {
+  color: #e23420 !important;
+  font-weight: 800;
+}
+
+.txt-rad {
+  color: #e7bf3a !important;
+  font-weight: 800;
+}
+
+.txt-bold {
+  color: inherit;
+  font-weight: 600;
+}
+
+.stat-icon-img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 0px;
+  display: inline-block;
+}
+
+#global-trait-tooltip {
+  position: fixed;
+  left: 285px;
+  z-index: 9999;
+  display: none;
+  pointer-events: none;
+  width: 350px;
+  min-width: 280px;
+  padding: 10px;
+  background: #0d0f14 !important;
+  border: 1px solid #3c3c41;
+  border-top: 2px solid #ca9337;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  font-family: "Inter", sans-serif;
+}
+
+.t-header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.t-header-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.t-tooltip-title {
+  font-size: 22px;
+  font-weight: 900;
+  color: #ffb93b;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+
+.t-tooltip-divider {
+  height: 1px;
+  background: #32353d;
+  margin: 15px 0;
+}
+
+.t-tooltip-general,
+.t-tooltip-pre-info,
+.t-tooltip-post-info {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.t-tooltip-post-info {
+  color: #a0a0a0;
+  font-style: italic;
+}
+
+.t-tooltip-post-info-plain {
+  font-style: normal;
+}
+
+.t-tooltip-steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.t-tooltip-step {
+  display: flex;
+  align-items: flex-start;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #666;
+  transition: color 0.2s ease;
+  margin-bottom: 4px;
+}
+
+.t-threshold-val {
+  min-width: 20px;
+  font-weight: 900;
+  color: inherit;
+}
+
+.t-tooltip-step.is-passed,
+.t-tooltip-step.is-current-active {
+  color: #ffffff !important;
+}
+
+.t-tooltip-step.is-current-active {
+  border-radius: 4px;
+  padding: 2px 0;
+}
+
+.champ-tooltip {
+  position: fixed;
+  z-index: 1000000;
+  pointer-events: none;
+  background: #0f111a;
+  border-radius: 8px;
+  padding: 12px;
+  width: 220px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  border: 1px solid #32353d;
+  display: none;
+}
+
+.ct-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ct-name {
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffb93b;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.ct-cost {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f5cba7;
+}
+
+.gold-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.ct-traits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 10px;
+}
+
+.ct-trait-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ct-trait-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: brightness(0.8);
+}
+
+.ct-trait-name {
+  font-size: 13px;
+  color: #a0a0a0;
+}
+
+.champ-tooltip.cost-1 {
+  border-color: #213042;
+}
+.champ-tooltip.cost-2 {
+  border-color: #156831;
+}
+.champ-tooltip.cost-3 {
+  border-color: #12407c;
+}
+.champ-tooltip.cost-4 {
+  border-color: #893088;
+}
+.champ-tooltip.cost-5 {
+  border-color: #ca9337;
+}
+.champ-tooltip.cost-7 {
+  border-color: #ff4e50;
+}
+
+.item-tooltip-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  gap: 12px;
+}
+
+.item-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.item-tooltip-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #f0d494;
+  text-transform: capitalize;
+}
+
+.item-tooltip-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 4px 12px;
+  align-items: center;
+}
+
+.tooltip-stat {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.tooltip-stat img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.item-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.item-recipe-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.recipe-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #1a1c23;
+}
+
+.recipe-plus {
+  color: #555;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.item-non-craftable {
+  color: #ff4e50;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 78, 80, 0.3);
+  padding: 3px 6px;
+  border-radius: 4px;
+  background: rgba(255, 78, 80, 0.05);
+}
+
+.item-tooltip-body {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #cbd5e0;
+}

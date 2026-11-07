@@ -1,0 +1,159 @@
+#canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  background: radial-gradient(circle, #1a1f28 0%, #0d1117 100%);
+  margin: 10px;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  position: relative;
+}
+
+.hex-row {
+  display: flex;
+  margin-top: -14px;
+  margin-left: -44px;
+  justify-content: center;
+}
+
+.hex-row:first-child {
+  margin-top: 0;
+}
+
+.hex-row:nth-child(even) {
+  transform: translateX(45px);
+}
+
+.comp-champ,
+.empty-slot {
+  width: 80px;
+  height: 90px;
+  margin: 0 5px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.comp-champ-hex {
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: 1;
+}
+
+.comp-champ-hex img {
+  position: absolute;
+  inset: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  object-fit: cover;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: 1;
+}
+
+.empty-slot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(145, 114, 62, 0.3);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: 1;
+}
+
+.empty-slot::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #0d1117;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: 2;
+}
+
+.slot-hover {
+  transform: scale(1.1);
+}
+
+.slot-hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(108, 238, 108, 0.247);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: 3;
+}
+
+.comp-champ:hover {
+  transform: scale(1.1) translateY(-5px);
+  z-index: 100;
+  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
+}
+
+.planner-star-picker {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 300;
+  display: flex;
+  gap: 1px;
+}
+
+.planner-star-picker button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0 1px;
+  color: #4a5262;
+}
+
+.planner-star-picker button.on {
+  color: #f2cf8a;
+}
+
+.planner-item-rack {
+  position: absolute;
+  inset: 0;
+  z-index: 55;
+  pointer-events: none;
+}
+
+.planner-item-slot {
+  position: absolute;
+  left: var(--rx);
+  top: var(--ry);
+  transform: translate(-50%, -50%);
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  opacity: 0.9;
+  transition: opacity 0.15s, filter 0.15s;
+  pointer-events: auto;
+  user-select: none;
+}
+
+.planner-item-slot:hover {
+  opacity: 1;
+  filter: brightness(1.25);
+}
+
+.planner-item-slot img {
+  position: absolute;
+  inset: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  clip-path: none;
+  pointer-events: none;
+  user-select: none;
+}
